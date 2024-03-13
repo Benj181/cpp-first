@@ -7,6 +7,14 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-pedantic-errors",
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
+                "-ggdb",
+                "-std=c++23",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
