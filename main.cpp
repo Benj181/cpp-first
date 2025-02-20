@@ -1,12 +1,9 @@
 #include <iostream>
-#include <limits>
+#include <vector>
+#include <string>
 
 int main()
 {
-	int x = 0;
-	std::cout << "Enter a number: ";
-	std::cin >> x;
-	std::cout << "You entered " << x << std::endl;
-	std::cout << "Hello, world!";
-	return 0;
+    printf("Hi");
+    return 0;
 }
